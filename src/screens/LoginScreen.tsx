@@ -44,6 +44,7 @@ export default class LoginScreen extends React.Component {
         }),
     }).then((response) => response.json()
     ).then((r) => {
+          console.log(r);
           if(r.token){
             this.props.navigation.navigate('Inicio', {data: r});
           }

@@ -210,7 +210,7 @@ UNSAFE_componentWillMount(){
 }
 
 componentDidMount(){
-  if(this.state.order.payment_method == 'bacs'){
+  if(this.state.order.payment_method == 'franchise'){
     this._showButtons();
   }
   this.getBeneficiaryData();

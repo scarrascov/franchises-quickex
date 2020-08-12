@@ -5,7 +5,7 @@ const constants = {
   IS_ANDROID: Platform.OS === "android",
   IS_IOS: Platform.OS === "ios",
   IS_DEBUG_MODE_ENABLED: Boolean(window.navigator.userAgent),
-  API_URL: "https://www.quickex.net/wp-json/",
+  API_URL: "https://new.quickex.cl/wp-json/",
   EMAIL_FIELD:"Correo Electrónico",
   PASSWD_FIELD:"Password"
 };
